@@ -1,0 +1,164 @@
+    1  ls
+    2  whoamI
+    3  echo $SHELL
+    4  pwd
+    5  ls
+    6  mkdir dir
+    7  mkdir
+    8  mkdir help
+    9  mkdir --help
+   10  ls
+   11  mkdir sw ca
+   12  ls
+   13  mkdir swcarp
+   14  bootcamp
+   15  mkdir bootcamp
+   16  ls
+   17  pwd
+   18  mv Downloads/s
+   19  mv Downloads/shell-novice-data.zip 
+   20  mv Downloads/shell-novice-data.zip bootcamp
+   21  ls
+   22  ls -l
+   23  ls Downloads/
+   24  pwd
+   25  ls
+   26  ls swcarp/
+   27  mkdir bootcamp
+   28  ls bootcamp/
+   29  unzip shell-novice-data.zip
+   30  pwd
+   31  cd bootcamp
+   32  ls
+   33  cd..
+   34  cd data
+   35  cd..
+   36  ls
+   37  cd uders
+   38  cd users
+   39  ped
+   40  pwd
+   41  cd nelle/
+   42  ls
+   43  ls -F
+   44  ls -L
+   45  ls -l
+   46  ls -lS
+   47  man ls
+   48  ls man ls
+   49  ls
+   50  mkdir thesis
+   51  ls -F
+   52  nano test.txt
+   53  vim test.txt
+   54  fg vim
+   55  ls
+   56  rm test.txt 
+   57  cd thesis/
+   58  ls
+   59  ls
+   60  rm test.txt
+   61  ls
+   62  cd..
+   63  cd ..
+   64  rm thesis
+   65  rmdir thesis
+   66  ls
+   67  mkdir thesis
+   68  cd thesis
+   69  nano short.txt
+   70  ls
+   71  cd ..
+   72  rm -r thesis
+   73  ls
+   74  ls
+   75  mkdir thesis
+   76  ls
+   77  cd thesis
+   78  cd ..
+   79  ls
+   80  cd thesis
+   81  ls
+   82  cd ..
+   83  ls
+   84  mv thesis/text.txt .
+   85  ls
+   86  cd thesis
+   87  ls
+   88  cd ..
+   89  ls
+   90  cp text.txt thesis/text2.txt
+   91  ls thesis
+   92  ls thesis/text2.txt 
+   93  ls thesis/text/txt
+   94  cd ..
+   95  ls
+   96  -cd
+   97  cd-
+   98  - cd
+   99  cd -
+  100  ls text.txt thesis/
+  101  ls text.txt thesis/ data/
+  102  cd data/
+  103  pdb elements/
+  104  ls pdb elements/
+  105  ls -l pdb elements/
+  106  cd ..
+  107  rm text.txt 
+  108  ls
+  109  ls text.txt
+  110  cd molecules/
+  111  ls
+  112  ls *.pdb
+  113  ls c*.pdb
+  114  ls p*.pdb
+  115  ls ??????.pdb
+  116  ls *.pdb
+  117  wc *.pdb
+  118  cat cubane.pdb 
+  119  wc -l *.pdb
+  120  wc -w *.pdb > words.txt
+  121  ls
+  122  cat words.txt 
+  123  sort -n words.txt 
+  124  sort -n words.txt | head -1
+  125  cat cubane.pdb 
+  126  head -1 cubane.pdb 
+  127  wc -w*.pdb | sort -n | head -2
+  128  wc -w* .pdb | sort -n | head -2
+  129  wc -w* .pdb
+  130  wc -w*
+  131  wc -w *.pdb
+  132  wc -w *.pdb |sort -n| head -2
+  133  cd ..
+  134  ls
+  135  cd north-pacific-gyre/2012-07-03/
+  136  ls
+  137  wc -l *.txt
+  138  sort -l *.txt |head -5
+  139  sort -l *.txt
+  140  sort *.txt
+  141  head -5
+  142  wc -l *.txt | sort -n | head -5
+  143  wc -l *.txt | sort -n | tail -5
+  144  ls *Z.txt
+  145  ls *[B].txt
+  146  cd ..
+  147  ls
+  148  cd ..
+  149  ls
+  150  cd molecules/
+  151  ls
+  152  cat cubane.pdb 
+  153  head -n 2 cubane.pdb 
+  154  head -n 2 cubane.pdb | tail -n 1
+  155  ls
+  156  grep ATOM cubane.pdb 
+  157  grep ATOM *.pdb 
+  158  grep ATOM *.pdb | wc -l
+  159  history
+  160  history > swc_history.txt
+  161  ls
+  162  cd ..
+  163  history
+  164  history > swc_history.txt
